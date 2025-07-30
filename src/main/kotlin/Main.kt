@@ -1,6 +1,7 @@
 package naser09.github.io.dsa
 
 import naser09.github.io.dsa.data_structures.a_basic.a_array.arrayBasic
+import naser09.github.io.dsa.leetcode.SolutionToProblem5
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -16,5 +17,10 @@ fun main() {
 //        println("i = $i")
 //    }
 
-    arrayBasic()
+    val result = SolutionToProblem5().longestPalindrome("babad")
+    println(result)
+    println(SolutionToProblem5().longestPalindrome("cbbd"))
+    println(SolutionToProblem5().longestPalindrome("a"))
+    println(SolutionToProblem5().longestPalindrome("dbbd"))
+    println(SolutionToProblem5().longestPalindrome("sdbbda"))
 }
