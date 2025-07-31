@@ -1,6 +1,8 @@
 package naser09.github.io.dsa
 
 import naser09.github.io.dsa.data_structures.a_basic.a_array.arrayBasic
+import naser09.github.io.dsa.leetcode.Probelm35
+import naser09.github.io.dsa.leetcode.Problem11
 import naser09.github.io.dsa.leetcode.SolutionToProblem5
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -16,11 +18,5 @@ fun main() {
 //        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 //        println("i = $i")
 //    }
-
-    val result = SolutionToProblem5().longestPalindrome("babad")
-    println(result)
-    println(SolutionToProblem5().longestPalindrome("cbbd"))
-    println(SolutionToProblem5().longestPalindrome("a"))
-    println(SolutionToProblem5().longestPalindrome("dbbd"))
-    println(SolutionToProblem5().longestPalindrome("sdbbda"))
+    Probelm35().printResult()
 }

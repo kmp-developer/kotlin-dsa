@@ -36,4 +36,12 @@ class SolutionToProblem5 {
         }
         return longest
     }
+    fun resultPrint(){
+        val result = SolutionToProblem5().longestPalindrome("babad")
+        println(result)
+        println(SolutionToProblem5().longestPalindrome("cbbd"))
+        println(SolutionToProblem5().longestPalindrome("a"))
+        println(SolutionToProblem5().longestPalindrome("dbbd"))
+        println(SolutionToProblem5().longestPalindrome("sdbbda"))
+    }
 }
