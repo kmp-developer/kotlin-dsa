@@ -3,6 +3,7 @@ package naser09.github.io.dsa
 import naser09.github.io.dsa.data_structures.a_basic.a_array.arrayBasic
 import naser09.github.io.dsa.leetcode.Probelm35
 import naser09.github.io.dsa.leetcode.Problem100
+import naser09.github.io.dsa.leetcode.Problem101
 import naser09.github.io.dsa.leetcode.Problem11
 import naser09.github.io.dsa.leetcode.Problem1768
 import naser09.github.io.dsa.leetcode.Problem94
@@ -21,5 +22,5 @@ fun main() {
 //        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 //        println("i = $i")
 //    }
-    Problem100().printResult()
+    Problem101().printResult()
 }
